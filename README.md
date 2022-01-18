@@ -21,7 +21,7 @@ Here are some things you need to know when using this script.
 i think thats it.
 
 ## How to change the bots location to visit.
-To change the location the bot visits first goto line 24.
+To change the location the bot visits first goto line 26.
 To find the position of the location you want to go.
 Use something Infinite yield and use the command "notifyposition".
 This will give you the position you are at. Now you did this,
