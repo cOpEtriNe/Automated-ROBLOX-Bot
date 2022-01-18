@@ -1,0 +1,52 @@
+-- this script is for when you want the bots to look like real players.
+-- you can change the chat messages they say for your own messages.
+-- you can use a loop if you want.
+
+while true do
+wait(2)
+local args = {
+    [1] = "Dude this game is SOOO COOL!!",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(2)
+
+local args = {
+    [1] = "Epic game!",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(2)
+
+local args = {
+    [1] = "wow! this is very fun!",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(2)
+
+local args = {
+    [1] = "I recommend this game to my friends!",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(2)
+
+local args = {
+    [1] = "Woah, this is epic!!",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(2)
+
+end
