@@ -1,6 +1,22 @@
 game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "Welcome to the ROBLOX Pathfinding project. Walk bots For ROBLOX! Botting a obby game? Use this for Real (fake) players! Project by cOpEtriNe, pathfinding scripts by ROBLOX. This message will repeat its self once looped / walked to its destination!", Color = Color3.fromRGB( 255,0,0 ), Font = Enum.Font.Arial, FontSize = Enum.FontSize.Size24 } )
 while true do
 wait(2)
+local args = {
+    [1] = "Computing Path.",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(2)
+
+local args = {
+    [1] = "Walking to computed path!",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
 
 local PathfindingService = game:GetService("PathfindingService")
  
