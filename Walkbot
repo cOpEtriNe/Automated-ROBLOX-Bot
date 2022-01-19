@@ -1,11 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {
-Title = "Pathfinding"; -- the title (ofc)
-Text = "Pathfinding has started running, - Bot will stop at destination."; -- what the text says (ofc)
-Icon = "11253497"; -- the image if u want. 
-Duration = 5; -- how long the notification should in secounds
-})
-game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "Welcome to the ROBLOX Pathfinding project. Walk bots For ROBLOX! Botting a obby game? Use this for Real (fake) players! Project by cOpEtriNe, pathfinding scripts by ROBLOX. This message will repeat its self once looped / walked to its destination!", Color = Color3.fromRGB( 255,0,0 ), Font = Enum.Font.Arial, FontSize = Enum.FontSize.Size24 } )
-
 wait(1)
 
 loadstring(game:HttpGet(“https://pastebin.com/raw/LvFwMRvn”, true))()
