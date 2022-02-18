@@ -26,5 +26,5 @@ To find the position of the location you want to go.
 Use something Infinite yield and use the command "notifyposition".
 This will give you the position you are at. Now you did this,
 you should have atleast your starting position and the destination or finish.
-then in line 24, you paste or type the position in and the bot will goto the destination.
+then in line 14, you paste or type the position in and the bot will goto the destination.
 
