@@ -1,3 +1,5 @@
+# just use Humanoid:MoveTo!!! This is a bad way to move your character
+
 # Automated-ROBLOX-Bot
 This is a Completely automated walk bot for ROBLOX!
 
